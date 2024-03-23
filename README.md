@@ -90,6 +90,7 @@ nomina           -1.861e-01 2.651e-01  -0.702  0.48460
 
 
 ![](018.png)
+
 Aunque el modelo presenta un mínimo nivel de validez predictiva para el caso estudiado por los resultados del modelo, cuando se evalúan las pruebas de hipótesis t individuales para cada variable independiente (Pr > |t|), se evidencia que la mayoría de las variables en realidad no tienen una importancia significativa en la predicción de modelo. También se encuentra que el modelo presenta un error promedio de 6.631 en sus predicciones de y logra explicar un 72% de la variabilidad de las predicciones, sin embargo, el hecho de que el modelo tenga variables poco significativas y que cuando se calcula el r ajustado disminuya el porcentaje de explicación de variabilidad indica que la predicción tiene el riesgo de estar inflada por el overfitting. 
 
 Al evaluar los gráficos de residuos se encuentra que para la validación de los residuos vs la curva norma (Q-Q) no corresponde con los valores de residuos encontrados principalmente en la esquina inferior derecha por lo que es probable que el modelo no cumpla con el supuesto de normalidad. Aunque parece cumplir los supuestos de homocedasticidad y no correlación de residuos, aunque se pueden observar que algunos de los datos se registran como atípicos.
